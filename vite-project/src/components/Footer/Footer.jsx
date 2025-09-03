@@ -48,7 +48,9 @@ function Footer() {
         <div className="copy-write ">&copy; 1997-2025 Netflix.Inc</div>
       </div>
     </div>
+
   );
 }
+
 
 export default Footer;
