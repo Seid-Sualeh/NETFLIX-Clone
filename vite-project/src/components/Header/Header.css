@@ -1,0 +1,81 @@
+.header-outer-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  /* background-color: transparent; */
+  height: 10vh;
+  z-index: 1;
+  color: white;
+  transition: all 0.3s;
+  transition-timing-function: ease-in;
+  /* background-color: red; */
+}
+.header-container {
+  width: 90%;
+  /* height: auto; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  /* background-color: blue; */
+  
+}
+
+.header_left ul{
+  display: flex;
+width: 140%;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  /* background-color: green; */
+}
+
+
+.header_right ul{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+
+  /* background-color: yellow; */
+}
+
+/* 
+
+
+
+
+
+
+.header_left{
+
+
+display: flex;
+ list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+ 
+}
+.header_right{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+/* image{
+  width: 5vh;
+  height: 5vh; */
