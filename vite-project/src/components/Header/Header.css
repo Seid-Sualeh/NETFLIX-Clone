@@ -33,7 +33,7 @@ width: 140%;
   align-items: center;
   color: white;
   cursor: pointer;
-  /* background-color: green; */
+ margin-left: 0;
 }
 
 
@@ -46,36 +46,10 @@ width: 140%;
   color: white;
   cursor: pointer;
 
-  /* background-color: yellow; */
+
 }
 
-/* 
-
-
-
-
-
-
-.header_left{
-
-
-display: flex;
- list-style: none;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  cursor: pointer;
- 
+.logo-image{
+margin-left: 0;
+  height: 12vh;
 }
-.header_right{
-  width: 40%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  color: white;
-  cursor: pointer;
-}
-/* image{
-  width: 5vh;
-  height: 5vh; */

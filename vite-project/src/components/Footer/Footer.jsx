@@ -43,7 +43,7 @@ function Footer() {
           </div>
         </div>
         <div className="sevice-code">
-          <p>Service Code</p>
+          Service Code
         </div>
         <div className="copy-write ">&copy; 1997-2025 Netflix.Inc</div>
       </div>
