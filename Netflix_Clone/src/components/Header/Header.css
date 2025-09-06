@@ -12,32 +12,29 @@
   color: white;
   transition: all 0.3s;
   transition-timing-function: ease-in;
-  /* background-color: red; */
 }
 .header-container {
   width: 90%;
-  /* height: auto; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
-  /* background-color: blue; */
-  
 }
-
-.header_left ul{
+/* .header_left  li{
+  width: 100%;
+} */
+.header_left ul {
   display: flex;
-width: 140%;
+  width: 140%;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: white;
   cursor: pointer;
- margin-left: 0;
+  margin-left: 0;
 }
 
-
-.header_right ul{
+.header_right ul {
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -45,11 +42,9 @@ width: 140%;
   list-style: none;
   color: white;
   cursor: pointer;
-
-
 }
 
-.logo-image{
-margin-left: 0;
+.logo-image {
+  margin-left:0;
   height: 12vh;
 }
