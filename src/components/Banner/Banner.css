@@ -54,3 +54,37 @@
     #111
   );
 }
+
+
+/* ✅ Responsive adjustments */
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-description {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .banner-buttons {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 1.5rem;
+  }
+
+  .banner-contents {
+    padding-top: 15vh;
+    margin-left: 15px;
+  }
+
+  .banner-description {
+    font-size: 0.8rem;
+  }
+}

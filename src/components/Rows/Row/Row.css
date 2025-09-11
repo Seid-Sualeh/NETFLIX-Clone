@@ -36,3 +36,63 @@
   margin-left: 20px;
   color: white;
 }
+
+
+
+/* Base styles (already good) */
+.row_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  scroll-behavior: smooth; /* smooth swipe */
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}
+
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 768px) {
+  .row_poster {
+    max-height: 80px; /* smaller posters for tablets */
+  }
+  .row_posterLarge {
+    max-height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .row_poster {
+    max-height: 60px; /* even smaller on phones */
+  }
+  .row_posterLarge {
+    max-height: 150px;
+  }
+}
