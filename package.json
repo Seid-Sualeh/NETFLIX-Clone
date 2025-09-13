@@ -3,7 +3,7 @@
   "name": "Netflix_Clone",
   "private": true,
   "version": "0.0.0",
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
@@ -18,7 +18,7 @@
     "@mui/icons-material": "^7.3.2",
     "@mui/material": "^7.3.2",
     "axios": "^1.11.0",
-    "movie-trailer": "^3.2.2",
+    "movie-trailer": "^3.2.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-youtube": "^10.1.0"
